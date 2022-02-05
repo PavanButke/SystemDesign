@@ -1,0 +1,7 @@
+#User has to upload video which is more than 1GB. Users network bandwidth is too low. Network get dropped after 50% upload. User tries again and same thing happens. Now to design an optimized efficient solution to address this issue.
+
+Option to downgrade the quality of video (this will save bandwidth)
+Save the file in local file system and notify the user that he will get notification once the upload is complete. This frees up the app/system.
+Save the job info in a database, so that in case system reboots, we can start the upload process from where it was left.
+Upload was successful, notify the user.
+In case of timeout, error, max-retries, notify the user.
