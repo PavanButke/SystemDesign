@@ -57,3 +57,6 @@ Code should be modular. Code should have basic OO design. Please do not jam in r
 Code should be extensible. Wherever applicable, use interfaces and contracts between different methods. It should be easy to add/remove functionality without re­writing entire codebase.
 Code should handle edge cases properly and fail gracefully.
 Code should be legible, readable and DRY
+
+[code_solution] http
+s://github.com/anomaly2104/ticket-booking-low-level-system-design
